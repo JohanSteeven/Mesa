@@ -1,10 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        for (int i =1 ; i<10 ; i++)
-        {
-            System.out.println("Hello world!");
-        }
+        Mesa mesa; //creando una variable/objeto
+        mesa = new Mesa(new Color("verde"), 10);
+       // mesa.quitar();
+        mesa.poner(new Object(),1);
+        mesa.poner(new Object(),4);
+        mesa.poner(new Object(),4);
+
+
     }
 
 }
